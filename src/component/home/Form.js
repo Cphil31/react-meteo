@@ -5,7 +5,6 @@ import Card from './Card';
 const Form = () => {
     const [town,setTown]= useState([]) ;
     const [search,setSearch]= useState(null);
-    const [country , setCountry]= useState([]);
     
     
     useEffect(()=>{
@@ -20,11 +19,12 @@ const Form = () => {
               <form action="">
                   <input 
                   type="text" 
-                  placeholder=""
+                  placeholder="Entrez le nom d'une ville"
                   onChange={(e) => setSearch(e.target.value)}
                   /> 
               </form>
-              <Card key={town.id} town={town} /> 
+              {town.name ? <Card key={town.id} town={town} /> : " "}
+               
 
         </div>
     );

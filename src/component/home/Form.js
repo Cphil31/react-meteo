@@ -15,7 +15,7 @@ const Form = () => {
     
                     
     return (
-        <div className='form'>
+        <div className='form' >
               <form action="">
                   <input 
                   type="text" 

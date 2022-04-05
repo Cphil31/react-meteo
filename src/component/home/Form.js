@@ -1,6 +1,7 @@
 import React, { useEffect ,useState } from 'react';
 import axios from 'axios';
 import Card from './Card';
+import Github from './Github';
 
 const Form = () => {
     const [town,setTown]= useState([]) ;
@@ -24,7 +25,6 @@ const Form = () => {
                   /> 
               </form>
               {town.name ? <Card key={town.id} town={town} /> : " "}
-               
 
         </div>
     );

@@ -10,6 +10,7 @@ const FirstCard = ({town}) => {
                 <p class ="arrow" style={{'transform': 'rotate('+town.wind.deg+'deg)'}} >  &#8593; </p>
             </div>
             
+            
               
         </div>
     );

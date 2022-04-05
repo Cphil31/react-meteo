@@ -5,8 +5,8 @@ const Card = ({town}) => {
     
     return (
         <div className='card' >
+            <h2>{town.name}</h2>
             <FirstCard key={town.id} town={town} />
-           
             <SecondCard key={town.id} town={town}  />          
         </div>
     );

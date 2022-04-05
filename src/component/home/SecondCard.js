@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import Github from './Github';
 
 const SecondCard = ({town}) => {
 
@@ -21,7 +22,8 @@ const SecondCard = ({town}) => {
         <div className='secondCard'>
             <img class="flag" src={town.name ? "https://countryflagsapi.com/png/"+town.sys.country : "" } alt={town.name} />
             <p>Pays : {countryName} </p>
-            <p>Capitale : {dataCountry.capital}</p>    
+            <p>Capitale : {dataCountry.capital}</p>  
+            <Github/>  
         </div>
     );
 };

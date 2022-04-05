@@ -3,8 +3,7 @@ import Github from './home/Github';
 
 const Footer = () => {
     return (
-        <div>
-            <Github/>
+        <div className='footer'>
         </div>
     );
 };

@@ -1,4 +1,8 @@
 .card{
+    
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
 
         h3{
             text-align: center;
@@ -8,5 +12,8 @@
             margin-left: auto;
             margin-right: auto;
             display: block;  
+        }
+        img.sky{
+            width: 60px;
         }
     }

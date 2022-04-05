@@ -1,0 +1,12 @@
+.firstCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    .wind{
+        display: flex;
+        align-items: end;
+    }
+    .arrow{
+        margin-left: 10px;
+    }
+}

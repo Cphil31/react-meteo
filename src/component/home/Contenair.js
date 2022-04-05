@@ -3,7 +3,7 @@ import Form from './Form';
 
 const Contenair = () => {
     return (
-        <div>
+        <div className='container'>
            <Form />
         </div>
     );

@@ -1,8 +1,8 @@
 {
   "name": "react-meteo",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://cphil31.github.io/react-meteo/",
+  "private": false,
+  "homepage": "https://phildev.fr/sandbox/react-meteo/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
